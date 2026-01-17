@@ -1,0 +1,304 @@
+﻿1) The positioning: what the site should “sell” in 10 seconds
+
+Headline (above the fold):
+Engineering Science + Systems Builder who ships real-world programs and products at the intersection of STEM, data, and community impact.
+
+Subheadline (1 sentence):
+I build scalable systems—software and people-systems—turning messy real-world workflows into measurable outcomes.
+
+This matches how you’re described publicly (engineering student, data analytics, leadership, advocacy) and your personal brand voice (faith-guided, service, storytelling/design) 
+
+Jensy Jimenez Portfolio
+
+.
+
+2) Site map that actually converts (minimal pages, maximum punch)
+A) / Home (conversion page)
+
+Goal: make someone want to click deeper or contact you.
+
+Sections
+
+Hero + Proof bar
+
+3–5 proof chips: “Engineering @ BCC”, “Program Lead”, “Data dashboards”, “Full-stack builds”, “Public speaking/advocacy”
+
+3 Tracks (interactive selector)
+
+Engineering (systems, prototypes, sustainability)
+
+Software/Data (React/Node/TS, dashboards, automation)
+
+Leadership & Speaking (program leadership, workshops, testimony)
+
+Featured case studies (3 cards)
+
+Nexusverium.tech
+
+AI Literacy Instruction
+
+USDA Plant-Forward program building (curriculum + operations)
+
+Call to action
+
+“Book a call” / “Email me” / “Download resume” / “View GitHub”
+
+B) /work Case Studies (the most important page)
+
+This is where offers are won.
+Every project becomes a case study template (more below).
+
+Include filters: Engineering / Software / Data / Leadership / Speaking.
+
+C) /timeline Impact Timeline (signature “wow” component)
+
+A scroll-driven timeline with “chapters,” each with artifacts:
+
+Programs you led, dashboards shipped, talks delivered, websites deployed, collaborations.
+This should highlight that you build systems + communities, not just code.
+
+Use USDA details as “Program Systems” credibility: mentorship roles, safety/logistics, curriculum structure 
+
+USDA Program Book
+
+.
+
+D) /speaking Public Speaking & Leadership
+
+Show:
+
+Talks, workshops, facilitation, testimony/advocacy
+BCC spotlight explicitly mentions your advocacy/testimony and leadership roles .
+
+E) /about Story (short, modern, confident)
+
+Use your narrative: Dominican Republic → Bronx Science STEM rigor → NJ → engineering + storytelling + service 
+
+Jensy Jimenez Portfolio
+
+.
+Keep faith references present but tasteful: “Guided by faith; focused on service and integrity.”
+
+F) /contact (simple)
+
+Fast form + scheduling link + direct email.
+
+3) Case study template (non-negotiable if you want interviews)
+
+Every project page should follow this structure:
+
+One-line outcome (metrics if possible)
+
+Problem (who had pain, what broke)
+
+Constraints (time, budget, stakeholders, tech limits)
+
+Approach (system design + decisions)
+
+Implementation (architecture diagram, key modules)
+
+Results (numbers, screenshots, before/after)
+
+What I’d improve next (shows maturity)
+
+Artifacts (repo links, live demo, slides, PDF, photos)
+
+Apply it to your required projects
+
+Nexusverium.tech
+
+Position as: “Environmental engineering + AI-enabled monitoring / remediation concept” (or whatever the current scope is)
+
+Add: interactive system diagram + prototype screenshots + roadmap.
+
+AI Literacy Instruction
+
+Position as: “Curriculum + delivery system”
+
+Include modules, learning outcomes, sample materials, and a short demo video.
+
+USDA Plant-Forward / program building
+
+This is a killer leadership case study because it proves you can design a real program end-to-end: schedule blocks, weekly modules, logistics, mentorship model 
+
+USDA Program Book
+
+ 
+
+USDA Program Book
+
+Also: it explicitly lists you as Lead Student Coordinator 
+
+USDA Program Book
+
+ — that’s serious operational leadership.
+
+4) “Beautiful AI components” that don’t look gimmicky
+
+These should feel useful, not like toys.
+
+1) AI Portfolio Concierge (RAG Chat)
+
+A chat widget trained only on:
+
+your case studies (markdown)
+
+your resume PDF
+
+select artifacts (program book excerpts, slide decks)
+
+public “About” info
+
+It answers recruiter questions like:
+
+“What did Jensy do on the USDA program?”
+
+“Show me projects that prove TypeScript + data skills.”
+
+“Summarize Jensy’s leadership experience.”
+
+2) Skill Evidence Graph
+
+Interactive graph: Skill → Projects → Artifacts
+Click “TypeScript” → shows projects + code snippets + links.
+Click “Leadership” → shows USDA mentorship systems + coordinator role 
+
+USDA Program Book
+
+ 
+
+USDA Program Book
+
+.
+
+3) Timeline with “Impact Modes”
+
+Toggle:
+
+“Engineering mode” (systems/prototypes)
+
+“Software mode” (apps/automation)
+
+“Leadership mode” (programs/events/public speaking)
+
+4) Auto-generated one-pagers (downloadable)
+
+Buttons like:
+
+“Generate a 1-page summary for Product/Data internships”
+
+“Generate a 1-page summary for Engineering internships”
+These are generated server-side from structured project data.
+
+5) Tech architecture (React + Node + TypeScript, modern + modular)
+Frontend
+
+React + TypeScript
+
+Routing: if you’re using Next.js, do it (best SEO + easiest deployment). If not, React Router is fine but you’ll work harder for SEO.
+
+UI: shadcn/ui + Tailwind (fast, clean, industry-standard)
+
+Motion: Framer Motion for timeline + micro-interactions
+
+Backend (Node.js + TypeScript)
+
+API: NestJS (best for “industry-standard procedures” + structure) or Express + Zod + typed routers
+
+DB: Postgres (projects, artifacts, tags, timeline events)
+
+CMS: use a headless CMS or “MDX content repo”
+
+Best developer workflow: MDX for case studies + a small admin UI later.
+
+AI layer
+
+Embeddings store: pgvector (inside Postgres) or a managed vector DB
+
+RAG: server route that retrieves chunks from your content and responds
+
+Guardrails: only answer from sources; otherwise say “not found”.
+
+Hosting
+
+Frontend: Vercel
+
+Backend: Render/Fly.io
+
+DB: Supabase Postgres (easy, reliable)
+
+6) Information design: how to show “engineering + software + leadership” without chaos
+
+Your site should treat your life like three systems that overlap:
+
+Systems Engineering & Impact
+
+Software/Data Systems
+
+People Systems (leadership, instruction, speaking)
+
+The USDA content is perfect evidence of “people systems”: mentorship roles, structured schedules, safety, program operations 
+
+USDA Program Book
+
+ 
+
+USDA Program Book
+
+.
+
+7) Content checklist (what you should gather next)
+
+To make this site elite, you need artifacts. Here’s the hit list:
+
+2–3 screenshots per project (before/after if possible)
+
+1 architecture diagram per technical case study
+
+1 short demo video (30–75 seconds) for top 2 projects
+
+Metrics (even small): time saved, users served, event attendance, dashboards shipped, etc.
+
+Speaking: titles, dates, venues, 1 photo if available
+
+Links: GitHub repos, live demos, PDFs (like your program book)
+
+8) A realistic build plan (so it ships fast)
+
+Phase 1 (MVP, 1–2 weeks of focused work)
+
+Home, Work, Case Study pages, About, Contact
+
+3 case studies fully built (Nexusverium, AI Literacy, USDA Program)
+
+Basic timeline
+
+Phase 2 (Polish + authority)
+
+Skill Evidence Graph
+
+Speaking page + media section
+
+SEO pass (OG images, metadata, sitemap)
+
+Phase 3 (AI components)
+
+RAG concierge
+
+“Generate one-pager” feature
+
+Search across projects
+
+9) One key correction to keep the brand consistent
+
+Your PDF says “Aspiring Business Consultant” 
+
+Jensy Jimenez Portfolio
+
+, while your public footprint leans engineering + systems + data .
+That’s not “wrong,” but it can confuse recruiters.
+
+Fix: use one umbrella identity:
+
+Systems Builder (Engineering + Data + Software + Leadership)
+Then “consulting” becomes the method, not the identity.
